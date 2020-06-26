@@ -1,7 +1,7 @@
 // Header desplegable
-const header = document.getElementById('header')
+const header = document.querySelector('header')
 
-header.addEventListener('scroll', () => {
+document.addEventListener('scroll', () => {
     if (window.pageYOffset >= 20) {
         header.classList.add('header-is-active')
     } else {
