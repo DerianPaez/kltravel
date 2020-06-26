@@ -74,6 +74,8 @@ h4 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    transition: .3s;
+    z-index: 2;
 }
 
 .header-is-active {
@@ -138,8 +140,10 @@ a {
 
 /* ====================TRAVEL=================== */
 
-.main {
+.travel-section {
     display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+    gap: 20px;
     justify-content: center;
 }
 
@@ -160,6 +164,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1;
 }
 
 .travel-text h3 {
