@@ -123,31 +123,52 @@ a {
 
 
 
-/* ====================HEADER=================== */
+/* ====================BANNER=================== */
 .banner {
     background-image: url(../images/young-woman-1745173_1920.jpg);
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
-/* ====================HEADER=================== */
+/* ====================BANNER=================== */
 
 
 
-/* ====================HEADER=================== */
+/* ====================TRAVEL=================== */
 
 .main {
     display: grid;
-    grid-template-columns: 1fr;
-    align-items: center;
     justify-content: center;
 }
 
-.viajes {
+.travel {
     width: 100%;
 }
 
-.viajes-img img {
-    width: 100px;
+.travel-img img {
+    width: 100%;
 }
 
+.travel-text {
+    background-color: #171A1A;
+    position: relative;
+    height: 70px;
+    margin-top: -30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-/* ====================HEADER=================== */
+.travel-text h3 {
+    color: var(--turquesaAzulado);
+    text-transform: uppercase;
+}
+
+.travel-text p {
+    color: #FF8800;
+}
+
+/* ====================TRAVEL=================== */
