@@ -1,0 +1,153 @@
+/* =====================VARIABLES==================== */
+
+:root {
+    --turquesa: #66B1B3;
+    --celeste: #7CD7D9;
+    --celesteB: #75CACC;
+    --turquesaVerdoso: #2C4C4D;
+    --turquesaAzulado: #508B8C;
+}
+
+
+/* =====================VARIABLES==================== */
+
+
+/* =====================GENERAL==================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+h3 {
+    font-size: 1.6em;
+}
+
+h4 {
+    font-size: 1.4em;
+}
+
+.container-horizontal {
+    max-width: 1100px;
+    width: 90%;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+}
+
+.container-vertical {
+    padding: 50px 0;
+}
+
+
+/* =====================GENERAL==================== */
+
+
+/* ====================HEADER=================== */
+
+.header-container {
+    position: fixed;
+    background-color: transparent;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-is-active {
+    background-color: #fff;
+    box-shadow: 0px 0px 8px 1px #000;
+}
+
+.logo-container img {
+    width: 130px;
+}
+
+.icon-x {
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.menu-container {
+    position: fixed;
+    background-color: hsl(0, 0%, 100%, 0.623);
+    top: 0;
+    right: -100vw;
+    bottom: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s;
+}
+
+.menu-is-active {
+    right: 0;
+}
+
+.menu li,
+a {
+    text-align: center;
+    color: hsl(0, 0%, 0%);
+    height: 40px;
+    font-weight: 600;
+}
+
+
+/* ====================HEADER=================== */
+
+
+
+/* ====================HEADER=================== */
+.banner {
+    background-image: url(../images/young-woman-1745173_1920.jpg);
+}
+
+/* ====================HEADER=================== */
+
+
+
+/* ====================HEADER=================== */
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+.viajes {
+    width: 100%;
+}
+
+.viajes-img img {
+    width: 100px;
+}
+
+
+/* ====================HEADER=================== */
