@@ -197,6 +197,7 @@ a {
 }
 
 .travel-text {
+    background-color: #171A1A;
     position: relative;
     height: 70px;
     margin-top: -30px;
@@ -213,7 +214,7 @@ a {
 }
 
 .travel-text p {
-    color: #000000;
+    color: #FF8800;
 }
 
 .main h2 {
