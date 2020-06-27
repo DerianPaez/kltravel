@@ -178,4 +178,31 @@ a {
     color: #FF8800;
 }
 
+.main h2 {
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FF8800;
+}
+
+.show-travels-btn {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.show-travels-btn a button {
+    border: 2px solid #FF8800;
+    text-transform: capitalize;
+    padding: 10px 15px;
+    background-color: none;
+    outline: none;
+    transition: .3s;
+    border-radius: 5px;
+}
+
+.show-travels-btn a button:hover {
+    background-color: #FF8800;
+    color: #fff;
+    cursor: pointer;
+}
 /* ====================TRAVEL=================== */
