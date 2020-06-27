@@ -3,7 +3,11 @@ const header = document.querySelector('header')
 const logo = document.getElementById('logo')
 
 document.addEventListener('scroll', () => {
+<<<<<<< HEAD
     if (window.pageYOffset >= 150) {
+=======
+    if (window.pageYOffset >= 80) {
+>>>>>>> 9ec7e1d... Cambio al header
         header.classList.add('header-is-active')
         header.style.color = "black";
         logo.src="images/Logo-black.png";
