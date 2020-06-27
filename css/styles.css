@@ -294,6 +294,7 @@ a {
 
 /* ======================PUBLICITY===================== */
 
+<<<<<<< HEAD
 /* ======================PUBLICITY===================== */
 
 .visa-section {
@@ -338,3 +339,25 @@ a {
 
 
 /* ======================PUBLICITY===================== */
+=======
+
+
+/* ======================CONTACT===================== */
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-img img {
+    width: 50%;
+} 
+
+.contact-content {
+    text-align: center;
+}
+
+/* ======================CONTACT===================== */
+>>>>>>> 5f78d387385f7598ea13e0a16b582043294449f5
