@@ -1,11 +1,17 @@
 // Header desplegable
 const header = document.querySelector('header')
+const logo = document.getElementById('logo')
 
 document.addEventListener('scroll', () => {
-    if (window.pageYOffset >= 20) {
+    if (window.pageYOffset >= 150) {
         header.classList.add('header-is-active')
+        header.style.color = "black";
+        logo.src="images/Logo-black.png";
+
     } else {
         header.classList.remove('header-is-active')
+        header.style.color = "white";
+        logo.src="images/Logo-white.png";
     }
 })
 
