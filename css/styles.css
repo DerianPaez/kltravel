@@ -293,3 +293,24 @@ a {
 }
 
 /* ======================PUBLICITY===================== */
+
+
+
+/* ======================CONTACT===================== */
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-img img {
+    width: 50%;
+} 
+
+.contact-content {
+    text-align: center;
+}
+
+/* ======================CONTACT===================== */
