@@ -360,16 +360,33 @@ a {
 
 
 /* ======================CONTACT===================== */
+
+.contact-section {
+    background-color: rgb(240, 240, 240);
+}
+
+.contact-section h2 {
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 .contact-container {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat( auto-fit, minmax(200px, 288px) );
     gap: 20px;
     justify-content: center;
     align-items: center;
 }
 
+.contact-img {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+}
+
 .contact-img img {
-    width: 50%;
+    width: 100%;
 } 
 
 .contact-content {
