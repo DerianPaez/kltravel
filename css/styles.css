@@ -296,9 +296,7 @@ a {
 
 /* ======================PUBLICITY===================== */
 
-.visa-section {
-    color: var(--turquesaAzulado);
-}
+
 
 .visa-section h2 {
     text-align: center;
@@ -309,6 +307,10 @@ a {
     grid-template-columns: repeat( auto-fit, minmax(288px, 1fr) );
     grid: 10px 0px;
     margin-top: 20px;
+}
+
+.visa-form label {
+    color: var(--turquesaAzulado);
 }
 
 .visa-form input {
@@ -334,7 +336,9 @@ a {
     color: var(--turquesaAzulado);
 }
 
-
+.visa-image img{
+    width: 100%;
+}
 
 
 /* ======================PUBLICITY===================== */
