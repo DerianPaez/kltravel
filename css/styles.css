@@ -364,11 +364,6 @@ h4 {
 
 
 /* ======================CONTACT===================== */
-
-.contact-section {
-    background-color: rgb(240, 240, 240);
-}
-
 .contact-section h2 {
     text-transform: capitalize;
     text-align: center;
@@ -443,18 +438,19 @@ h4 {
     text-align: center;
 }
 
-.footer-content h5 {
-    text-transform: capitalize;
-}
-
 .footer-content a {
     color: #fff;
     display: block;
+    text-align: left;
+
 }
 
 .footer-content h5 {
-    margin-bottom: 7px;
-    border-bottom: 1px solid aqua;
+    text-transform: capitalize;
+    font-size: 1.4em;
+    font-weight: 800;
+    text-align: left;
+    color: var(--celesteB);
 }
 
 .sub-footer {
