@@ -271,6 +271,10 @@ h4 {
 
 /* ====================MAIN=================== */
 
+.main {
+    background: #f6f6f6;
+}
+
 .travel-section {
     display: grid;
     grid-template-columns: repeat( auto-fit, minmax(250px, 288px) );
@@ -293,8 +297,6 @@ h4 {
 }
 
 .travel-text h3 {
-    color: var(--turquesaAzulado);
-    text-transform: uppercase;
     text-align: center;
 }
 
@@ -331,11 +333,18 @@ h4 {
     margin-top: 20px;
 }
 
-.travel-button button {
-    padding: 3px 7px;
-    border: 2px solid var(--turquesaAzulado);
+.travel-button input {
+    background-color: #66b1b3;
+    color: #fff;
+    border-radius: 30px;
+    padding: 7px 30px;
+    font-weight: 600;
+    margin: 0 auto;
+    border: none;
     outline: none;
-    transition: .3s;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-top: 20px;
 }
 
 .travel-button button:hover {
@@ -368,7 +377,6 @@ h4 {
 
 /* ======================PUBLICITY===================== */
 .publicity-section {
-    background: linear-gradient(to right, rgba(44, 76, 77, 0.76), rgba(44, 76, 77, 0.33)), url(../images/london-eye-945497_1920.jpg);
     width: 100%;
     height: auto;
     background-repeat: no-repeat;
@@ -408,7 +416,7 @@ h4 {
 }
 
 .publicity-text {
-    color: #fff;
+    color: #000;
     padding: 10px;
 }
 
@@ -417,8 +425,13 @@ h4 {
     margin-bottom: 7px;
 }
 
+.publicity-button {
+    text-align: center;
+}
+
 .publicity-button input{
-    background-color: #ffffff;
+    background-color: #66b1b3;
+    color: #fff;
     border-radius: 30px;
     padding: 7px 30px;
     font-weight: 600;
