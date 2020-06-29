@@ -48,6 +48,13 @@
 }
 
 @media screen and (min-width:1024px){
+
+    h2 {
+        font-size: 2.8em;
+    }
+
+    /* Banner  */
+
     .banner-description {
         font-size: 3em;
     }
@@ -59,11 +66,19 @@
         grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
     }
 
+    .publicity-text h3{
+        font-size: 2.3em;
+    }
+
+    .publicity-text p {
+        font-size: 1.1em;
+    }
+
     /* Travel  */
 
     .travel {
         display: flex;
-        height: 270px;
+        height: 350px;
     }
 
     .travel-section {
@@ -80,17 +95,36 @@
     }
 
     .travel-text {
-        padding: 20px 20px 20px 0;
-        margin-left: 20px;
+        padding: 60px 40px 40px 0;
+        margin-left: 35px;
     }
 
     .travel-text h3 {
         text-align: left;
+        font-size: 2em;
     }
 
     .travel-button {
         text-align: left;
     }
+
+    .travel-text p {
+        font-size: 1.2em;
+    }
+
+    .travel-small p {
+        font-size: 2.5em;
+        font-weight: bolder;
+    }
+
+    .travel-small small {
+        font-size: 1.2em;
+    }
+
+    .travel-content {
+        justify-content: flex-start;
+    }
+
 
     /* Country Section   */
     
@@ -106,6 +140,7 @@
         grid-template-columns: 1fr 1fr 2fr;
         gap: 10px;
     }
+    
 }
 
 @media screen and (min-width:1200px){

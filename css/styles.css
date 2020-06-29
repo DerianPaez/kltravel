@@ -187,7 +187,6 @@ h4 {
 
 .banner-button input {
     background-color: #ffffff;
-    color: var(--turquesa);
     border-radius: 30px;
     padding: 10px 50px;
     font-weight: 600;
@@ -196,14 +195,21 @@ h4 {
     outline: none;
     font-size: 1.5em;
     cursor: pointer;
+    transition: .3s;
 }
+
+.banner-button input:hover {
+    background-color: rgba(255, 255, 255, 0.267);
+    color: #fff;
+}
+
 
 /* ====================BANNER=================== */
 
 /* ====================COUNTRY=================== */
 
 .country-section {
-    background-color: #f6f6f6;
+    background: #f1f1f1;
 }
 
 .country-container-vertical {
@@ -279,17 +285,17 @@ h4 {
 /* ====================MAIN=================== */
 
 .main {
-    background: #f6f6f6;
+    background: #f1f1f1;
 }
 
 .travel-section {
     display: grid;
-    grid-template-columns: repeat( auto-fit, minmax(250px, 288px) );
+    grid-template-columns: repeat( auto-fit, minmax(288px, 1fr) );
     gap: 40px;
 }
 
 .travel {
-    box-shadow: 0px 0px 6px 0px #0000009e
+    box-shadow: 0px 0px 12px 0px #00000082;
 }
 
 .travel-img img {
@@ -307,10 +313,21 @@ h4 {
     text-align: center;
 }
 
+.travel-price {
+    background-color: #66b1b3;
+    color: #fff;
+    border-bottom-left-radius: 15px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
 .travel-content {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     margin-bottom: 10px;
 }
 
@@ -323,12 +340,9 @@ h4 {
 }
 
 .travel-small {
-    text-align: center;
-}
-
-.travel-small p {
-    font-size: 1.4em;
-    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .travel-small small {
@@ -337,7 +351,6 @@ h4 {
 
 .travel-button {
     text-align: center;
-    margin-top: 20px;
 }
 
 .travel-button input {
@@ -352,12 +365,13 @@ h4 {
     font-size: 1.2em;
     cursor: pointer;
     margin-top: 20px;
+    transition: .3s;
 }
 
-.travel-button button:hover {
-    background-color: var(--turquesaAzulado);
-    color: #fff;
+.travel-button input:hover {
+    background-color: #4e9597;
     cursor: pointer;
+    transform: scale(1.02);
 }
 
 .show-travels-btn {
@@ -380,12 +394,17 @@ h4 {
     cursor: pointer;
 }
 
+.travel-stars small {
+    font-size: 1.2em;
+}
+
 /* ====================MAIN=================== */
 
 /* ======================PUBLICITY===================== */
 .publicity-section {
+    background: linear-gradient(to right, rgba(44, 76, 77, 0.76), rgba(44, 76, 77, 0.33)),  url(../images/nature-4613735_960_720.jpg);
     width: 100%;
-    height: auto;
+    height:auto;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -423,7 +442,7 @@ h4 {
 }
 
 .publicity-text {
-    color: #000;
+    color: #fff;
     padding: 10px;
 }
 
@@ -448,6 +467,11 @@ h4 {
     font-size: 1.2em;
     cursor: pointer;
     margin-top: 20px;
+    transition: .3s;
+}
+
+.publicity-button input:hover {
+    background-color: #66b0b34d;
 }
 
 /* ======================PUBLICITY===================== */
@@ -573,6 +597,10 @@ h4 {
 
 
 /* ======================CONTACT===================== */
+
+.contact-section {
+    background: #f1f1f1;
+}
 
 .contact-container {
     display: grid;
