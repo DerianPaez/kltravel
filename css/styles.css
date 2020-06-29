@@ -367,7 +367,13 @@ h4 {
 
 /* ======================PUBLICITY===================== */
 .publicity-section {
-    background-color: #272727;
+    background: linear-gradient(to right, rgba(44, 76, 77, 0.76), rgba(44, 76, 77, 0.33)), url(../images/london-eye-945497_1920.jpg);
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 70%;
 }
 
 .publicity-container-horizontal {
