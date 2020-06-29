@@ -576,11 +576,14 @@ h4 {
 }
 
 .contact-img img {
-    width: 100%;
+    width: 100px;
+    display: block;
+    margin: 0 auto;
 } 
 
 .contact-content {
     text-align: center;
+    margin-top: 20px;
 }
 
 /* ======================CONTACT===================== */
