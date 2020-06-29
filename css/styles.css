@@ -175,7 +175,7 @@ h4 {
 
 /* ====================BANNER=================== */
 
-/* ====================TRAVEL=================== */
+/* ====================MAIN=================== */
 
 .travel-section {
     display: grid;
@@ -219,7 +219,7 @@ h4 {
     margin-bottom: 30px;
     text-align: center;
     text-transform: capitalize;
-    color: #FF8800;
+    color: var(--turquesaVerdoso);
 }
 
 .show-travels-btn {
@@ -228,7 +228,7 @@ h4 {
 }
 
 .show-travels-btn a button {
-    border: 2px solid #FF8800;
+    border: 2px solid var(--turquesaAzulado);
     text-transform: capitalize;
     padding: 10px 15px;
     background-color: none;
@@ -238,11 +238,11 @@ h4 {
 }
 
 .show-travels-btn a button:hover {
-    background-color: #FF8800;
+    background-color: var(--turquesaAzulado);
     color: #fff;
     cursor: pointer;
 }
-/* ====================TRAVEL=================== */
+/* ====================MAIN=================== */
 
 /* ======================PUBLICITY===================== */
 .publicity-section {
@@ -268,7 +268,7 @@ h4 {
     width: 100%;
     border-radius: 30px;
     overflow: hidden;
-    border: 1.5px solid #FF8800;
+    border: 1.5px solid var(--turquesaAzulado);
 }
 
 .publicity-image {
@@ -294,12 +294,13 @@ h4 {
 
 /* ======================PUBLICITY===================== */
 
-/* ======================PUBLICITY===================== */
+/* ======================VISA===================== */
 
 
 
 .visa-section h2 {
     text-align: center;
+    color: var(--turquesaVerdoso);
 }
 
 .visa-container {
@@ -339,7 +340,6 @@ h4 {
 .visa-form .send {
     border: 2px solid var(--turquesaAzulado);
     text-transform: capitalize;
-    background-color: none;
     outline: none;
     transition: .3s;
     border-radius: 5px;
@@ -347,9 +347,14 @@ h4 {
     color: hsl(0, 0%, 0%);
     height: 40px;
     width: 80px;
-    font-weight: 600;
     margin: 0 auto;
     display: block;
+}
+
+.visa-form .send:hover {
+    background-color: var(--turquesaAzulado);
+    color: #fff;
+    cursor: pointer;
 }
 
 .visa-image img{
@@ -357,7 +362,7 @@ h4 {
 }
 
 
-/* ======================PUBLICITY===================== */
+/* ======================VISA===================== */
 
 
 /* ======================CONTACT===================== */
@@ -365,6 +370,7 @@ h4 {
     text-transform: capitalize;
     text-align: center;
     margin-bottom: 20px;
+    color: var(--turquesaVerdoso);
 }
 
 .contact-container {
