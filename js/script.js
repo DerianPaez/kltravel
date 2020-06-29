@@ -1,19 +1,64 @@
 // Header desplegable
 const header = document.querySelector('header')
 const logo = document.getElementById('logo')
+const link = document.getElementsByClassName('link')
+const menu = document.getElementById('menu-mobile')
 
-document.addEventListener('scroll', () => {
-    if (window.pageYOffset >= 80) {
-        header.classList.add('header-is-active')
-        header.style.color = "black";
-        logo.src="images/Logo-black.png";
+const mediaQuery = window.matchMedia('screen and (min-width: 768px)')
+
+function headerActive(){
+    header.classList.add('header-is-active')
+    header.style.color= "black"
+    logo.src="images/Logo-black.png";
+}
+
+function headerDesactive(){
+    header.classList.remove('header-is-active')
+    header.style.color= "white"
+    logo.src="images/Logo-white.png";
+    if (!menu.classList.contains('menu-is-active')){
+        for(var i = 0; i < link.length; i++){
+            link[i].style.color = "black";
+        }
+    }
+}
+
+mediaQuery.addListener(validation)
+validation(mediaQuery)
+function validation(evento) {
+    
+    if (evento.matches){
+        console.log("true")
+        document.addEventListener('scroll', dinamycMenu)
+        function dinamycMenu() {
+            if (window.pageYOffset >= 30) {
+                headerActive()
+            }  else {
+                headerDesactive()
+                for(var i = 0; i < link.length; i++)
+                {
+                    link[i].style.color = "white";
+                }
+            }
+        }
 
     } else {
-        header.classList.remove('header-is-active')
-        header.style.color = "white";
-        logo.src="images/Logo-white.png";
+        console.log("false")
+        document.addEventListener('scroll', dinamycMenu)
+        function dinamycMenu() {
+            if (window.pageYOffset >= 30) {
+                headerActive()
+            }  else {
+                headerDesactive()
+                for(var i = 0; i < link.length; i++)
+                {
+                    link[i].style.color = "black";
+                }
+            }
+        }
     }
-})
+}
+
 
 
 // Menu Hamburguesa
