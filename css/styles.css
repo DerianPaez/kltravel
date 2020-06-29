@@ -18,7 +18,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Baloo 2', cursive;
+    font-family: 'Baloo 2', sans-serif;
     font-size: 16px;
     line-height: 1.2;
 }
@@ -43,6 +43,7 @@ h2 {
     font-size: 2.2em;
     text-align: center;
     margin-bottom: 30px;
+    text-transform: capitalize;
 }
 
 h3 {
@@ -173,7 +174,7 @@ h4 {
 }
 
 .banner-curve {
-    height: 60px;
+    height: 70px;
     width: 100%; 
     overflow: hidden;
     bottom: 0;
@@ -194,6 +195,7 @@ h4 {
     border: none;
     outline: none;
     font-size: 1.5em;
+    cursor: pointer;
 }
 
 /* ====================BANNER=================== */
@@ -247,12 +249,7 @@ h4 {
 }
 
 .content h4{
-    background-color: #ffffff;
-    color: var(--turquesa);
-    border-radius: 30px;
-    padding: 3px;
-    width: 80px;
-    font-weight: 600;
+    font-weight: 500;
     margin: 0 auto;
 }
 
@@ -260,37 +257,13 @@ h4 {
     background: transparent;
 }
 
-.country-text:hover .content h4 {
-    background: #fff;
-    color: var(--turquesaAzulado);
-}
-
 .country:hover .country-img img {
     transform: scale(1);
 }
 
-
-
 .country-text h3 {
     text-transform: capitalize;
 }
-
-/* TESTING  */
-
-.cn-container {
-    border: 1px solid red;
-    display: grid;
-    grid-template-columns: 250px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.cn {
-    border: 1px solid red;
-}
-
-/* TESTING  */
 
 /* ====================COUNTRY=================== */
 
