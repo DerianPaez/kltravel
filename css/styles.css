@@ -40,6 +40,10 @@ h1 {
 
 h2 {
     font-size: 1.8em;
+    text-align: center;
+    color: var(--turquesaAzulado);
+    text-transform: capitalize;
+    margin-bottom: 30px;
 }
 
 h3 {
@@ -170,18 +174,57 @@ h4 {
     position: absolute;
 }
 
-
-
-
 /* ====================BANNER=================== */
+
+
+
+/* ====================COUNTRY=================== */
+.country-container {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+    gap: 30px;
+}
+
+.country {
+    position: relative;
+    text-align: center;
+}
+
+.country-text {
+    position: absolute;
+    bottom: 3px;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: #fff;
+    background-color: #0000007e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.country-text h3 {
+    text-transform: capitalize;
+}
+
+.country-img img {
+    width: 100%;
+    height: 203px;
+    object-fit: cover;
+}
+
+
+
+/* ====================COUNTRY=================== */
+
+
 
 /* ====================MAIN=================== */
 
 .travel-section {
     display: grid;
     grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
-    gap: 40px 20px;
-    justify-content: center;
+    gap: 40px;
 }
 
 .travel {
@@ -213,13 +256,6 @@ h4 {
 
 .travel-text p {
     color: #FF8800;
-}
-
-.main h2 {
-    margin-bottom: 30px;
-    text-align: center;
-    text-transform: capitalize;
-    color: var(--turquesaVerdoso);
 }
 
 .show-travels-btn {
@@ -294,14 +330,49 @@ h4 {
 
 /* ======================PUBLICITY===================== */
 
-/* ======================VISA===================== */
 
 
-
-.visa-section h2 {
-    text-align: center;
-    color: var(--turquesaVerdoso);
+/* ======================WE===================== */
+.we-section {
+    background: linear-gradient(to right, rgba(44, 76, 77, 0.76), rgba(44, 76, 77, 0.33)), url(../images/london-eye-945497_1920.jpg);
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 70%;
 }
+
+.we {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.we-container {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+    gap: 20px;
+}
+
+.we-title-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.we-img img {
+    width: 100px;
+}
+
+.we-title-img-container h3 {
+    text-transform: capitalize;
+    text-align: center;
+    padding: 10px;
+}
+
+/* ======================WE===================== */
+
+/* ======================VISA===================== */
 
 .visa-container {
     display: grid;
@@ -366,12 +437,6 @@ h4 {
 
 
 /* ======================CONTACT===================== */
-.contact-section h2 {
-    text-transform: capitalize;
-    text-align: center;
-    margin-bottom: 20px;
-    color: var(--turquesaVerdoso);
-}
 
 .contact-container {
     display: grid;
@@ -399,7 +464,7 @@ h4 {
 
 
 
-/* ======================CONTACT===================== */
+/* ======================FOOTER===================== */
 .footer {
     background: linear-gradient(to right, rgba(44, 76, 77, 0.76), rgba(44, 76, 77, 0.33)), url(../images/hallstatt-3609863_1920.jpg);
     width: 100%;
@@ -467,4 +532,4 @@ h4 {
     color: white;
 }
 
-/* ======================CONTACT===================== */
+/* ======================FOOTER===================== */
