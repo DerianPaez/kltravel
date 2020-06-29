@@ -99,7 +99,7 @@ h4 {
 }
 
 .logo-container img {
-    width: 160px;
+    width: 180px;
 }
 
 .icon-x {
@@ -112,8 +112,6 @@ h4 {
 
 .menu-container {
     position: fixed;
-    background-color: hsl(0, 0%, 100%, 0.623);
-    top: 0;
     right: -100vw;
     bottom: 0;
     width: 100vw;
@@ -123,17 +121,27 @@ h4 {
     transition: .3s;
 }
 
-.menu-is-active {
-    right: 0;
+.menu {
+    background-color: #fff;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.menu li {
+.menu-is-active {
+    right: 0;
+    color: #000000;
+}
+
+.links li {
     height: 40px;
     text-align: center;
 }
 
-.menu a {
-    color: hsl(0, 0%, 0%);
+.links a {
+    color:#fff;
     font-weight: 600;
 }
 
@@ -366,6 +374,9 @@ h4 {
 
 .we-title-img-container h3 {
     text-transform: capitalize;
+}
+
+.visa-section h2 {
     text-align: center;
     padding: 10px;
 }
