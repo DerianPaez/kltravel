@@ -280,7 +280,7 @@ h4 {
 
 .travel-section {
     display: grid;
-    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+    grid-template-columns: repeat( auto-fit, minmax(250px, 288px) );
     gap: 40px;
 }
 
@@ -292,6 +292,7 @@ h4 {
     width: 100%;
     height: 250px;
     object-fit: cover;
+    display: block;
 }
 
 .travel-text {
