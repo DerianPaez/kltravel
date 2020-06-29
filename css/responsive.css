@@ -21,6 +21,7 @@
     .menu {
         background: none;
         width: auto;
+        height: auto;
     }
     
 
@@ -38,7 +39,7 @@
 
     /* Banner  */
     .banner-description {
-        font-size: 2.5em;
+        font-size: 2.3em;
     }
 
     .banner-description p {
@@ -47,6 +48,9 @@
 }
 
 @media screen and (min-width:1024px){
+    .banner-description {
+        font-size: 3em;
+    }
 }
 
 @media screen and (min-width:1200px){

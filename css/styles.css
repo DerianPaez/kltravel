@@ -18,8 +18,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Baloo 2', cursive;
     font-size: 16px;
+    line-height: 1.2;
 }
 
 html {
@@ -35,23 +36,21 @@ li {
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 2.4em;
 }
 
 h2 {
-    font-size: 1.8em;
+    font-size: 2.2em;
     text-align: center;
-    color: var(--turquesaAzulado);
-    text-transform: capitalize;
     margin-bottom: 30px;
 }
 
 h3 {
-    font-size: 1.6em;
+    font-size: 1.8em;
 }
 
 h4 {
-    font-size: 1.4em;
+    font-size: 1.2em;
 }
 
 .container-horizontal {
@@ -106,7 +105,7 @@ h4 {
     position: absolute;
     right: 25px;
     top: 25px;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 900;
 }
 
@@ -154,6 +153,7 @@ h4 {
 
 
 /* ====================BANNER=================== */
+
 .banner {
     background: linear-gradient(to right, rgba(44, 76, 77, 0.76), rgba(44, 76, 77, 0.33)), url(../images/young-woman-1745173_1920.jpg);
     width: 100%;
@@ -170,9 +170,7 @@ h4 {
 
 .banner-description {
     text-align: left;
-    font-size: 1.4em;
 }
-
 
 .banner-curve {
     height: 60px;
@@ -182,46 +180,117 @@ h4 {
     position: absolute;
 }
 
+.banner-button {
+    margin-top: 10px;
+}
+
+.banner-button input {
+    background-color: #ffffff;
+    color: var(--turquesa);
+    border-radius: 30px;
+    padding: 10px 50px;
+    font-weight: 600;
+    margin: 0 auto;
+    border: none;
+    outline: none;
+    font-size: 1.5em;
+}
+
 /* ====================BANNER=================== */
 
-
-
 /* ====================COUNTRY=================== */
+
+.country-section {
+    background-color: #f6f6f6;
+}
+
+.country-container-vertical {
+    padding: 10px 0 50px;
+}
+
 .country-container {
     display: grid;
-    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+    grid-template-columns: repeat( auto-fit, minmax(288px, 1fr) );
     gap: 30px;
 }
 
 .country {
     position: relative;
     text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: 0px 0px 3px 0px #0000009e;
+}
+
+.country-img img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    transition: .3s;
+    transform: scale(1.15);
 }
 
 .country-text {
     position: absolute;
-    bottom: 3px;
+    bottom: 0;
     top: 0;
     left: 0;
     right: 0;
     color: #fff;
-    background-color: #0000007e;
+    background: linear-gradient(to right, rgba(44, 76, 77, 0.36), rgba(44, 76, 77, 0.10));
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: .3s;
+    
 }
+
+.content h4{
+    background-color: #ffffff;
+    color: var(--turquesa);
+    border-radius: 30px;
+    padding: 3px;
+    width: 80px;
+    font-weight: 600;
+    margin: 0 auto;
+}
+
+.country:hover .country-text{
+    background: transparent;
+}
+
+.country-text:hover .content h4 {
+    background: #fff;
+    color: var(--turquesaAzulado);
+}
+
+.country:hover .country-img img {
+    transform: scale(1);
+}
+
+
 
 .country-text h3 {
     text-transform: capitalize;
 }
 
-.country-img img {
-    width: 100%;
-    height: 203px;
-    object-fit: cover;
+/* TESTING  */
+
+.cn-container {
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.cn {
+    border: 1px solid red;
+}
 
+/* TESTING  */
 
 /* ====================COUNTRY=================== */
 
@@ -331,7 +400,6 @@ h4 {
 }
 
 .publicity-text h3 {
-    font-size: 1.2em;
     text-align: center;
     margin-bottom: 7px;
 }
