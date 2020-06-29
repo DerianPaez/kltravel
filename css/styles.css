@@ -367,7 +367,7 @@ h4 {
 
 /* ======================PUBLICITY===================== */
 .publicity-section {
-    background-color: #000000;
+    background-color: #272727;
 }
 
 .publicity-container-horizontal {
@@ -377,9 +377,9 @@ h4 {
 
 .publicity-container {
     overflow-x: scroll;
-    height: 400px;
+    height: auto;
     display: grid;
-    grid-template-columns: repeat(3,270px);
+    grid-template-columns: repeat(3,265px);
     gap: 15px;
     justify-content: space-between;
     width: 100%;
@@ -387,9 +387,7 @@ h4 {
 
 .publicity {
     width: 100%;
-    border-radius: 30px;
     overflow: hidden;
-    border: 1.5px solid var(--turquesaAzulado);
 }
 
 .publicity-image {
@@ -412,6 +410,19 @@ h4 {
     margin-bottom: 7px;
 }
 
+.publicity-button input{
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 7px 30px;
+    font-weight: 600;
+    margin: 0 auto;
+    border: none;
+    outline: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
 /* ======================PUBLICITY===================== */
 
 
@@ -425,6 +436,10 @@ h4 {
     background-size: cover;
     background-attachment: fixed;
     background-position: 70%;
+}
+
+.we-section h2 {
+    color: #fff;
 }
 
 .we {
