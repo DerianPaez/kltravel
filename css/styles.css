@@ -283,29 +283,64 @@ h4 {
 
 .travel-img img {
     width: 100%;
-    height: 200px;
+    height: 250px;
     object-fit: cover;
 }
 
 .travel-text {
-    background-color: #171A1A;
-    position: relative;
-    height: 70px;
-    margin-top: -30px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
+    padding: 10px;
 }
 
 .travel-text h3 {
     color: var(--turquesaAzulado);
     text-transform: uppercase;
+    text-align: center;
 }
 
-.travel-text p {
-    color: #FF8800;
+.travel-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.travel-stars {
+    display: flex;
+}
+
+.travel-stars small {
+    margin-left: 5px;
+}
+
+.travel-small {
+    text-align: center;
+}
+
+.travel-small p {
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
+.travel-small small {
+    font-size: .9em;
+}
+
+.travel-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.travel-button button {
+    padding: 3px 7px;
+    border: 2px solid var(--turquesaAzulado);
+    outline: none;
+    transition: .3s;
+}
+
+.travel-button button:hover {
+    background-color: var(--turquesaAzulado);
+    color: #fff;
+    cursor: pointer;
 }
 
 .show-travels-btn {
@@ -313,21 +348,21 @@ h4 {
     text-align: center;
 }
 
-.show-travels-btn a button {
+.show-travels-btn button {
     border: 2px solid var(--turquesaAzulado);
     text-transform: capitalize;
     padding: 10px 15px;
-    background-color: none;
     outline: none;
     transition: .3s;
     border-radius: 5px;
 }
 
-.show-travels-btn a button:hover {
+.show-travels-btn button:hover {
     background-color: var(--turquesaAzulado);
     color: #fff;
     cursor: pointer;
 }
+
 /* ====================MAIN=================== */
 
 /* ======================PUBLICITY===================== */
@@ -395,12 +430,19 @@ h4 {
 .we {
     background-color: #fff;
     padding: 20px;
+    transition: .3s;
+}
+
+.we:hover {
+    transform: scale(1.1);
+    transition: all ease .35s;
+    cursor: default;
 }
 
 .we-container {
     display: grid;
     grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
-    gap: 20px;
+    gap: 30px;
 }
 
 .we-title-img-container {
