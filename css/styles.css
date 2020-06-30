@@ -142,7 +142,8 @@ h4 {
 
 .links a {
     color:#fff;
-    font-weight: 600;
+    font-weight: 700;
+    font-size: 1.3em;
 }
 
 .menu-mobile-container span{
@@ -643,7 +644,7 @@ h4 {
 
 /* ======================FOOTER===================== */
 .footer {
-    background: linear-gradient(to right, rgba(44, 76, 77, 0.76), rgba(44, 76, 77, 0.33)), url(../images/hallstatt-3609863_1920.jpg);
+    background: linear-gradient(to right, rgba(44, 76, 77, 0.55), rgba(44, 76, 77, 0.55)), url(../images/hallstatt-3609863_1920.jpg);
     width: 100%;
     height: auto;
     background-repeat: no-repeat;
@@ -717,7 +718,7 @@ h4 {
 }
 
 .sub-footer a {
-    color: white;
+    color: var(--celesteB);
 }
 
 /* ======================FOOTER===================== */
