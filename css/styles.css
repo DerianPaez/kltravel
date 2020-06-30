@@ -537,8 +537,11 @@ h4 {
 .visa-container {
     display: grid;
     grid-template-columns: repeat( auto-fit, minmax(288px, 1fr) );
-    grid: 10px 0px;
-    margin-top: 20px;
+    grid-gap: 30px;
+}
+
+.visa-container-form {
+    padding: 50px;
 }
 
 .visa-form label {
@@ -588,8 +591,15 @@ h4 {
     cursor: pointer;
 }
 
+.visa-image {
+    height: 100%;
+    width: 100%;
+}
+
 .visa-image img{
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 
@@ -635,7 +645,7 @@ h4 {
 .footer {
     background: linear-gradient(to right, rgba(44, 76, 77, 0.76), rgba(44, 76, 77, 0.33)), url(../images/hallstatt-3609863_1920.jpg);
     width: 100%;
-    height:auto;
+    height: auto;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
