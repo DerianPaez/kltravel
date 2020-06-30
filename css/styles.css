@@ -68,6 +68,12 @@ h4 {
 /* =====================GENERAL==================== */
 
 
+
+    /*  -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+                            INDEX PAGE
+        -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+  */
+
+
 /* ====================BANNER=================== */
 
 .banner {
@@ -517,11 +523,7 @@ h4 {
     transform: scale(1.02);
 }
 
-
-
-
 /* ======================VISA===================== */
-
 
 /* ======================CONTACT===================== */
 
@@ -555,8 +557,6 @@ h4 {
 }
 
 /* ======================CONTACT===================== */
-
-
 
 /* ======================FOOTER===================== */
 .footer {
@@ -639,13 +639,10 @@ h4 {
 
 /* ======================FOOTER===================== */
 
-
-
-
-
-
-
-
+ 
+    /* -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+                            SOMOS PAGE
+       -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+  */
 
 
 /* ======================BANNER2===================== */
@@ -692,3 +689,186 @@ h4 {
 
 /* ======================MISION-VISION===================== */
 
+
+
+/* -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+                            TRAVELS PAGE
+       -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+  */
+
+       /* Aqui el mamaverga del Ruky va ah hacer algo diferente al del inicio y vale verga */
+
+
+.travel-page-section {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(288px, 1fr) );
+    gap: 40px;
+}
+
+.travel-page {
+    box-shadow: 0px 0px 12px 0px #00000082;
+}
+
+.travel-page-img img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+}
+
+.travel-page-text {
+    padding: 10px;
+}
+
+.travel-page-text h3 {
+    text-align: center;
+}
+
+.travel-page-price {
+    background-color: #66b1b3;
+    color: #fff;
+    border-bottom-left-radius: 15px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.travel-page-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.travel-page-stars {
+    display: flex;
+}
+
+.travel-page-stars small {
+    margin-left: 5px;
+}
+
+.travel-page-small {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.travel-page-small small {
+    font-size: .9em;
+}
+
+.travel-page-button {
+    text-align: center;
+}
+
+.travel-page-button input {
+    background-color: #66b1b3;
+    color: #fff;
+    border-radius: 30px;
+    padding: 7px 30px;
+    font-weight: 600;
+    margin: 0 auto;
+    border: none;
+    outline: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: .3s;
+}
+
+.travel-page-button input:hover {
+    background-color: #4e9597;
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+.travel-page-stars small {
+    font-size: 1.2em;
+}
+
+
+
+/* -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+                            VISA PAGE
+       -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+  */
+
+
+/* ====================== BANNER4 ===================== */
+
+.banner4 {
+    background-image: url(../images/ocean.jpg);
+    width: 100%;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position-y: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: relative;
+}
+
+.banner4-description {
+    text-align: center;
+}
+
+.banner4-curve {
+    height: 70px;
+    width: 100%; 
+    overflow: hidden;
+    bottom: 0;
+    position: absolute;
+}
+
+/* ====================== BANNER4 ===================== */
+
+/* ====================== VISA PAGE ===================== */
+
+.visa-page-form input {
+    border-radius: 18px;
+    border: 1px solid;
+    outline: none;
+    height: 30px;
+    padding: 8px 15px;
+    width: 100%;
+    margin: 5px 0 10px;
+}
+
+.visa-page-form textarea {
+    border-radius: 18px;
+    border: 1px solid;
+    outline: none;
+    height: 40px;
+    padding: 10px 15px;
+    width: 100%;
+    margin: 5px 0 10px;
+    height: 180px;
+}
+
+.visa-page-form .send {
+    border: 2px solid var(--turquesaAzulado);
+    text-transform: capitalize;
+    outline: none;
+    transition: .3s;
+    border-radius: 5px;
+    text-align: center;
+    color: hsl(0, 0%, 0%);
+    height: 40px;
+    width: 80px;
+    margin: 0 auto;
+    display: block;
+}
+
+.visa-page-form .send:hover {
+    background-color: var(--turquesaAzulado);
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+/* ======================BANNER3===================== */
