@@ -142,7 +142,8 @@ h4 {
 
 .links a {
     color:#fff;
-    font-weight: 600;
+    font-weight: 700;
+    font-size: 1.3em;
 }
 
 .menu-mobile-container span{
@@ -717,7 +718,7 @@ h4 {
 }
 
 .sub-footer a {
-    color: white;
+    color: var(--celesteB);
 }
 
 /* ======================FOOTER===================== */
