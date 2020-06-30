@@ -7,11 +7,6 @@
     .banner-description {
         width: 60%;
     }
-
-    .footer {
-        padding-top: 100px;
-    }
-
 }
 
 @media screen and (min-width:768px){
@@ -58,13 +53,11 @@
     }
 
     /* Banner  */
-
     .banner-description {
         font-size: 3em;
     }
 
     /* Publiciy Section  */
-
     .publicity-container {
         overflow-x: hidden;
         grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
@@ -79,7 +72,6 @@
     }
 
     /* Travel  */
-
     .travel {
         display: flex;
         height: 350px;
@@ -130,8 +122,7 @@
     }
 
 
-    /* Country Section   */
-    
+    /* Country Section   */  
     .country-container {
         display: grid;
         grid-template-columns: 2fr 1fr 1fr;
@@ -144,7 +135,26 @@
         grid-template-columns: 1fr 1fr 2fr;
         gap: 10px;
     }
-    
+
+    /* Footer */
+    .footer {
+        height: 400px;
+    }
+    .footer-container {
+        margin-bottom: 80px;
+    }
+    .footer-content h5 {
+        font-size: 1.8em;
+    }
+    .footer-content a {
+        font-size: 1.3em;
+    }
+    .sub-footer p {
+        font-size: 1.2em;
+    }
+    .sub-footer a {
+        font-size: 1.2em;
+    }
 }
 
 @media screen and (min-width:1200px){
