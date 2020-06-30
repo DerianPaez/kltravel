@@ -7,6 +7,10 @@
     .banner-description {
         width: 60%;
     }
+
+    .visa-container-countries {
+        grid-template-columns: repeat(4,1fr);
+    }
 }
 
 @media screen and (min-width:768px){
@@ -49,6 +53,18 @@
     .banner-description p {
         font-size: .6em;
     }
+
+    /* Travel  */
+
+    .visa-container h2 {
+        font-size: 3.5em;
+    }
+
+    .visa-container p {
+        font-size: 1.3em;
+    }
+
+
 }
 
 @media screen and (min-width:1024px){
@@ -125,7 +141,6 @@
     .travel-content {
         justify-content: flex-start;
     }
-
 
     /* Country Section   */  
     .country-container {
