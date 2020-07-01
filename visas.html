@@ -46,46 +46,87 @@
 <!-- ======================BANNER===================== -->
     <section class="banner4">
         <div class="container-horizontal">
-            <div class="banner4-description">
-                <h1>Asesoria de Visas</h1>
+            <div class="visa-page">
+                
+                <form class="visa-page-form" action="#">
+                    <h1>Asesoria de Visas</h1>
+                    <div class="name-and-tel">
+                        <div class="name">
+                            <input class="name-and-tel" placeholder="Nombres y apellidos" type="text" name="names">
+                        </div>
+
+                        <div class="tel">
+                            <input class="tel" placeholder="Telefono o celular" type="tel" name="tel">
+                        </div>
+                    </div>
+                    
+                    <div class="email">
+                        <input class="email" placeholder="Correo electronico" type="email" name="email">
+                    </div>
+                    
+                    <div class="message">
+                        <textarea class="message" placeholder="Mensaje" name="message"></textarea>
+                    </div>
+                    
+                    <p style="color: #508B8C;margin-bottom:20px">El formulario sera enviado a un correo por el cual en menos de 24 hroas sera respondido, Si deseas comunicarse por medio telefonico ir aqui: <a href="#">contactenos</a></p>
+
+                    <div class="send">
+                        <input type="submit" value="Enviar">
+                    </div>
+                </form>
             </div>
         </div>
 
-        <div class="banner-curve"><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-36.96,109.03 C301.06,-7.39 298.81,136.67 514.95,55.75 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>
+        <div class="banner-curve"><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-36.96,109.03 C301.06,-7.39 298.81,136.67 514.95,55.75 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #f1f1f1;"></path></svg></div>
     </section>
 <!-- ======================BANNER===================== -->
 
 <!-- ======================HEADER===================== -->
 
-    <section class="visa-page-section">
-        <div class="container-horizontal container-vertical">
-            <div class="visa-page-container">
-                <div class="visa-page">
-                    <form class="visa-page-form" action="#">
-
-                        <label for="names">Nombres y apellido</label>
-                        <input type="text" name="names">
-                        <br>
-                        <label for="names">Correo electronico</label>
-                        <input type="email" name="email">
-                        <br>
-                        <label for="tel">Numero de telefono o celular</label>
-                        <input type="tel" name="tel">
-                        <br>
-                        <label for="message">Mensaje</label>
-                        <br>
-                        <textarea name="message"></textarea>
-                        <br>
-                        <input class="send" type="submit" value="Enviar">
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
+    <section class="contact-section">
+        <div class="contaner-horizontal container-vertical">
+        <h2>contactate con nosotros</h2>
+         <div class="contact-container">
+             <div class="contact">
+                 <figure class="contact-img">
+                     <img src="images/whatsapp.svg" alt="">
+                 </figure>
+                 <div class="contact-content">
+                     <p>+593 92 342 348</p>
+                     <p>+593 92 394 238</p>
+                     <p>+593 97 427 432</p> 
+                     <p>+593 98 723 4263</p>
+                 </div>
+             </div>
+             <div class="contact">
+                 <figure class="contact-img">
+                     <img src="images/telefono.svg" alt="">
+                 </figure>
+                 <div class="contact-content">
+                     <p>04 578 43</p>
+                     <p>04 255 25</p>
+                     <p>04 603 77</p>
+                     <p>04 985 23</p>
+                 </div>
+             </div>
+             <div class="contact">
+                 <figure class="contact-img">
+                     <img src="images/gmail.svg" alt="">
+                 </figure>
+                 <div class="contact-content">
+                     <p>jamesloor02@gmail.com</p>
+                     <p>derianpaez01@gmail.com</p>
+                     <p>rukapan01@gmail.com</p>
+                     <p>mendozajames02@gmail.com</p>
+                 </div>
+             </div>
+         </div>
+    </div>
+ </section>
 
 <!-- ======================HEADER===================== -->
 
     <script src="js/script.js"></script>
-    
+
 </body>
 </html>
