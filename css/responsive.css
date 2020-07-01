@@ -4,6 +4,30 @@
 }
 
 @media screen and (min-width:480px){ 
+
+    /* We section */
+
+    .we-container {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-areas: "we-1 we-1 we-2 we-2"
+                             ". we-3 we-3 .";
+        gap: 30px;
+    }
+
+    /* Contact  */
+
+    .contact-container {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-areas:
+            "contact-1 contact-1 contact-2 contact-2"
+            ". contact-3 contact-3 .";
+        gap: 30px;
+    }
+
+    /* Banner  */
+
     .banner-description {
         width: 60%;
     }
@@ -37,6 +61,21 @@
     /* header */
     .links a {
         font-size: 1.1em;
+    }
+
+    /* We section */
+
+    .we-container {
+        grid-template-columns: repeat(3,1fr);
+        grid-template-areas: "we-1 we-2 we-3";
+    }
+    
+    /* Contact  */
+
+    .contact-container {
+        grid-template-columns: repeat(3,1fr);
+        grid-template-areas:
+            "contact-1 contact-2 contact-3";
     }
 
     /* Banner  */
