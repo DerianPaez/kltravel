@@ -818,95 +818,7 @@ h4 {
 /* ====================== BANNER3 ===================== */
 
 
-.travel-page-section {
-    display: grid;
-    grid-template-columns: repeat( auto-fit, minmax(288px, 1fr) );
-    gap: 40px;
-}
 
-.travel-page {
-    box-shadow: 0px 0px 12px 0px #00000082;
-}
-
-.travel-page-img img {
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
-    display: block;
-}
-
-.travel-page-text {
-    padding: 10px;
-}
-
-.travel-page-text h3 {
-    text-align: center;
-}
-
-.travel-page-price {
-    background-color: #66b1b3;
-    color: #fff;
-    border-bottom-left-radius: 15px;
-    padding: 10px;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    font-weight: 600;
-}
-
-.travel-page-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 10px;
-}
-
-.travel-page-stars {
-    display: flex;
-}
-
-.travel-page-stars small {
-    margin-left: 5px;
-}
-
-.travel-page-small {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.travel-page-small small {
-    font-size: .9em;
-}
-
-.travel-page-button {
-    text-align: center;
-}
-
-.travel-page-button input {
-    background-color: #66b1b3;
-    color: #fff;
-    border-radius: 30px;
-    padding: 7px 30px;
-    font-weight: 600;
-    margin: 0 auto;
-    border: none;
-    outline: none;
-    font-size: 1.2em;
-    cursor: pointer;
-    margin-top: 20px;
-    transition: .3s;
-}
-
-.travel-page-button input:hover {
-    background-color: #4e9597;
-    cursor: pointer;
-    transform: scale(1.02);
-}
-
-.travel-page-stars small {
-    font-size: 1.2em;
-}
 
 
 
@@ -936,9 +848,9 @@ h4 {
 
 /* ======================BANNER4===================== */
 
+
+
 /* ======================VISA-PAGE===================== */
-
-
 .visa-page-container-vertical {
     padding: 0 0 50px 0;
 }
@@ -1008,7 +920,112 @@ h4 {
     color: #fff;
     cursor: pointer;
 }
+/* ======================VISA-PAGE===================== */
 
 
 
+/* ======================VISA-PAGE===================== */
+.travel-page-grid {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(288px, 1fr) );
+    gap: 20px;
+    justify-content: center;
+}
+
+.travel-page {
+    box-shadow: 0px 0px 10px 1px #000000cf;
+}
+
+.travel-page-img img {
+    width: 100%;
+    height: 200px;
+    display: block;
+}
+
+.travel-img-discount {
+    position: relative;
+}
+
+.discount {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: var(--celeste);
+    width: 70px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.discount p {
+    color: #fff;
+    font-size: 1.4em;
+}
+
+.travel-page-price {
+    position: absolute;
+    bottom: 0;
+    left: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--celeste);
+    width: 100px;
+    height: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #fff;
+}
+
+.travel-page-price p {
+    font-size: 1.4em;
+    margin-left: 5px;
+}
+
+.travel-page-price small {
+    text-decoration: line-through;
+}
+
+.travel-page-content {
+    padding: 10px 15px 15px;
+}
+
+.travel-page-title h3 {
+    font-size: 1.5em;
+}
+
+.travel-page-title small {
+    margin-left: 30px;
+}
+
+.raiting-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.travel-page-rating {
+    display: flex;
+    align-items: center;
+}
+
+.points-raiting {
+    background-color: var(--celeste);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin-right: 5px;
+}
+
+.raiting-btn-container input {
+    background: var(--celeste);
+    padding: 5px 10px;
+    color: #fff;
+    border: none;
+}
 /* ======================VISA-PAGE===================== */
