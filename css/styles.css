@@ -509,8 +509,23 @@ h4 {
 
 .we-container {
     display: grid;
-    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+    grid-template-columns: 1fr;
+    grid-template-areas: "we-1"
+                         "we-2"
+                         "we-3";
     gap: 30px;
+}
+
+.we-area-1 {
+    grid-area: we-1;
+}
+
+.we-area-2 {
+    grid-area: we-2;
+}
+
+.we-area-3 {
+    grid-area: we-3;
 }
 
 .we-title-img-container {
@@ -618,10 +633,24 @@ h4 {
 
 .contact-container {
     display: grid;
-    grid-template-columns: repeat( auto-fit, minmax(200px, 288px) );
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "contact-1"
+        "contact-2"
+        "contact-3";
+    grid-gap: 20px;
+}
+
+.contact-area-1 {
+    grid-area: contact-1;
+}
+
+.contact-area-2 {
+    grid-area: contact-2;
+}
+
+.contact-area-3 {
+    grid-area: contact-3;
 }
 
 .contact-img {
