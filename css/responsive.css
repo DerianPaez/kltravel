@@ -14,10 +14,8 @@
 
     /* Visa  */
 
-    .visa-page-form h1 {
-        color: #000000;
+    .visa-page-form h2 {
         text-align: center;
-        margin: 10px;
     }
 
     .name-and-tel {
@@ -102,16 +100,10 @@
 
     /* Visa  */
 
-    .banner4 {
-        align-items: center;
-    }
-
     .visa-page-form {
         width: 60%;
         padding: 20px 40px;
-        margin: 0;
     }
-
 
 }
 
