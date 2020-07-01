@@ -747,39 +747,58 @@ h4 {
 .banner2-description {
     text-align: center;
 }
-
 /* ======================BANNER2===================== */
 
+
+
 /* ======================WHO-WE===================== */
-.who-we-section h2 {
-    text-align: left;
-    margin-bottom: 20px;
+.container-vertical-who-we{
+    padding: 20px 0 50px;
 }
 
-.whi-we-content p {
-    color: #747474;
+.who-we-content p {
+    color: #676767;
     margin-bottom: 10px;
 }
-
 /* ======================WHO-WE===================== */
 
 
 
 /* ======================MISION-VISION===================== */
+.mision-section {
+    background-color: #f1f1f1;
+    box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+}
 
+.mision h3 {
+    color: #444444;
+}
 
+.mision-text p {
+    color: #676767;
+}
+
+.vision {
+    margin-top: 20px;
+}
 /* ======================MISION-VISION===================== */
+
+
+
+/* ======================BENEFIT===================== */
+.benefit-content p {
+    color: #676767;
+}
+/* ======================BENEFIT===================== */
 
 
 
 /* -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
                             TRAVELS PAGE
        -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+  */
+       
 
-       /* Aqui el mamaverga del Ruky va ah hacer algo diferente al del inicio y vale verga */
-
-/* ====================== BANNER4 ===================== */
-
+/* ======================BANNER4===================== */
 .banner3 {
     background: linear-gradient(to right, rgba(44, 76, 77, 0.76), rgba(44, 76, 77, 0.33)), url(../images/workplace-1245776_1920.jpg);
     width: 100%;
@@ -796,8 +815,6 @@ h4 {
 .banner3-description {
     text-align: center;
 }
-
-
 /* ====================== BANNER3 ===================== */
 
 
@@ -898,7 +915,7 @@ h4 {
        -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+  */
 
 
-/* ====================== BANNER4 ===================== */
+/* ======================BANNER4===================== */
 
 .banner4 {
     background: linear-gradient(to right, rgba(44, 76, 77, 0.76), rgba(44, 76, 77, 0.33)), url(../images/workplace-1245776_1920.jpg);
@@ -918,9 +935,9 @@ h4 {
 }
 
 
-/* ====================== BANNER4 ===================== */
+/* ======================BANNER4===================== */
 
-/* ====================== VISA PAGE ===================== */
+/* ======================VISA-PAGE===================== */
 
 .visa-page-form input {
     border-radius: 18px;
@@ -965,4 +982,4 @@ h4 {
 
 
 
-/* ======================BANNER3===================== */
+/* ======================VISA-PAGE===================== */
