@@ -131,6 +131,21 @@
     .publicity-text p {
         font-size: 1.1em;
     }
+
+    /* Country Section   */  
+    .country-container {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .country-container2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 2fr;
+        gap: 10px;
+    }
+
 }
 
 @media screen and (min-width:1200px){
