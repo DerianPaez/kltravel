@@ -140,7 +140,7 @@
     /* Visa  */
 
     .visa-page-form {
-        width: 60%;
+        width: 61%;
         padding: 20px 40px;
     }
 
@@ -204,19 +204,21 @@
     .footer {
         height: 400px;
     }
-
     .footer-content h5 {
         font-size: 2em;
     }
-
     .footer-content a {
         font-size: 1.3em;
     }
-
     .sub-footer {
         margin-top: 100px;
     }
-
+    .sub-footer p {
+        font-size: 1.3em;
+    } 
+    .sub-footer a {
+        font-size: 1.3em;
+    }
 }
 
 @media screen and (min-width:1200px){

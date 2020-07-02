@@ -335,6 +335,11 @@ h4 {
 
 .travel-stars small {
     margin-left: 5px;
+    font-size: 1em;
+}
+
+.icon-star-half, .icon-star-full {
+    font-size: 1em;
 }
 
 .travel-small {
@@ -390,10 +395,6 @@ h4 {
     background-color: var(--turquesaAzulado);
     color: #fff;
     cursor: pointer;
-}
-
-.travel-stars small {
-    font-size: 1.2em;
 }
 
 /* ====================MAIN=================== */
@@ -871,7 +872,7 @@ h4 {
 
 /* ======================BANNER4===================== */
 
-
+/* ======================VISA-PAGE===================== */
 .visa-page-background-visa {
     background: url(../images/estas_si/pass-page3.jpg);
     width: 100%;
@@ -963,7 +964,7 @@ h4 {
 
 
 
-/* ======================VISA-PAGE===================== */
+/* ======================TRAVEL-PAGE===================== */
 .travel-page-grid {
     display: grid;
     grid-template-columns: repeat( auto-fit, minmax(288px, 1fr) );
@@ -1067,96 +1068,32 @@ h4 {
     color: #fff;
     border: none;
 }
-/* ======================VISA-PAGE===================== */
+/* ======================TRAVEL-PAGE===================== */
 
 /* -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
                             CONTACT PAGE
        -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+  */
 
-/* ======================BANNER5===================== */
+/* ======================CONTACT-PAGE===================== */
 
-.banner5 {
-    background: linear-gradient(to right, rgba(44, 76, 77, 0.76), rgba(44, 76, 77, 0.33)), url(../images/estas_si/pass-page1.jpg);
+.contact-page-section {
+    background: linear-gradient(to right, rgba(44, 76, 77, 0.76), rgba(44, 76, 77, 0.33)), url(../images/damian-zaleski-RYyr-k3Ysqg-unsplash.jpg);
     width: 100%;
-    height: 60vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 70%;
-    position: relative;
-    display: flex;
-    align-items: center;
+    background-attachment: fixed;
+    background-position: 50% 50%;
     color: #fff;
 }
 
-.banner5-description {
-    text-align: center;
-}
-
-/* ======================BANNER5===================== */
-
-/* ======================VISA-PAGE===================== */
 .contact-page {
-    display: grid;
-    grid-template-columns: repeat( auto-fit, minmax(288px, 1fr));
-    gap: 30px;
-    background-image: url(../images/pattern.png);
-}
-
-.contact-page-img img {
-    width: 100%;
-    object-fit: cover;
-    height: 100%;
-    display: block;
-}
-
-.contact-page-form {
-    width: 100%;
-    display: block;
-}
-
-.contact-info-section {
-    display: grid;
-    grid-template-columns: repeat( auto-fit, minmax(400px, 1fr) );
-    gap: 30px;
-}
-
-.contact-page-form input {
-    width: 100%;
-    height: 40px;
-    border-radius: 15px;
-    outline: none;
-    padding: 0 10px;
-    margin: 5px 0 15px;
-}
-
-.contact-page-form textarea {
-    width: 100%;
-    height: 200px;
-    border-radius: 15px;
-    resize: none;
-    margin: 5px 0 10px;
-}
-
-.contact-page-send {
-    text-align: center;
-}
-
-.contact-page-send input {
-    width: 80px;
-    height: 35px;
-    background: none;
-    border-radius: 0px;
-}
-
-.contact-page-info {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.contact-page-info h3 {
-    text-align: center;
+.contact-page-form {
+    margin-top: 70px;
 }
-
-/* ======================VISA-PAGE===================== */
+/* ======================CONTACT-PAGE===================== */
 
