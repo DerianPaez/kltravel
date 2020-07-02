@@ -199,6 +199,24 @@
         font-size: 1.1em;
     }
 
+    /* Footer  */
+
+    .footer {
+        height: 400px;
+    }
+
+    .footer-content h5 {
+        font-size: 2em;
+    }
+
+    .footer-content a {
+        font-size: 1.3em;
+    }
+
+    .sub-footer {
+        margin-top: 100px;
+    }
+
 }
 
 @media screen and (min-width:1200px){
