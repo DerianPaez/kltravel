@@ -283,7 +283,7 @@ h4 {
 /* ====================MAIN=================== */
 
 .main {
-    background: #f1f1f1;
+    background: #ffff;
 }
 
 .travel-section {
@@ -622,7 +622,7 @@ h4 {
 /* ======================CONTACT===================== */
 
 .contact-section {
-    background: #f1f1f1;
+    background: #fff;
 }
 
 .contact-container {
@@ -873,7 +873,7 @@ h4 {
 
 
 .visa-page-background-visa {
-    background: url(../images/estas_si/pass-page2.jpg);
+    background: url(../images/estas_si/pass-page3.jpg);
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
