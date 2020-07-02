@@ -225,13 +225,7 @@ h4 {
 .country-container {
     display: grid;
     grid-template-columns: repeat( auto-fit, minmax(288px, 1fr) );
-    gap: 20px; 
-    margin-bottom: 20px;
-}
-
-.country-container2 {
-    display: grid;
-    grid-template-columns: repeat( auto-fit, minmax(288px, 1fr) );
+    justify-content: center;
     gap: 20px; 
 }
 
