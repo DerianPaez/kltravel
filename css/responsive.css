@@ -151,6 +151,34 @@
     h2 {
         font-size: 2.8em;
     }
+    
+    /* Country Section   */  
+    .country-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas: "country-1 country-1 country-2 country-3"
+                             "country-4 country-5 country-6 country-6";
+        gap: 10px; 
+    }
+    
+    .country-area-1 {
+        grid-area: country-1;
+    }
+    .country-area-2 {
+        grid-area: country-2;
+    }
+    .country-area-3 {
+        grid-area: country-3;
+    }
+    .country-area-4 {
+        grid-area: country-4;
+    }
+    .country-area-5 {
+        grid-area: country-5;
+    }
+    .country-area-6 {
+        grid-area: country-6;
+    }
 
     /* Banner  */
     .banner-description {
@@ -169,20 +197,6 @@
 
     .publicity-text p {
         font-size: 1.1em;
-    }
-
-    /* Country Section   */  
-    .country-container {
-        display: grid;
-        grid-template-columns: 2fr 1fr 1fr;
-        gap: 10px;
-        margin-bottom: 10px;
-    }
-    
-    .country-container2 {
-        display: grid;
-        grid-template-columns: 1fr 1fr 2fr;
-        gap: 10px;
     }
 
 }
