@@ -1095,6 +1095,25 @@ h4 {
 /* ======================BANNER5===================== */
 
 /* ======================VISA-PAGE===================== */
+.contact-page {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(288px, 1fr));
+    gap: 30px;
+    background-image: url(../images/pattern.png);
+}
+
+.contact-page-img img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    display: block;
+}
+
+.contact-page-form {
+    width: 100%;
+    display: block;
+}
+
 .contact-info-section {
     display: grid;
     grid-template-columns: repeat( auto-fit, minmax(400px, 1fr) );
