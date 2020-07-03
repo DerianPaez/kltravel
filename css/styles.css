@@ -106,6 +106,10 @@ h4 {
     width: 180px;
 }
 
+.icon-menu2 {
+    font-size: 2.5em;
+}
+
 .icn-x {
     position: absolute;
     right: 25px;
@@ -148,6 +152,11 @@ h4 {
     color:#fff;
     font-weight: 700;
     font-size: 1.3em;
+    transition: .3s;
+}
+
+.links a:hover {
+    color: #75cacc;
 }
 
 .menu-mobile-container span{
@@ -374,7 +383,6 @@ h4 {
 .travel-button input:hover {
     background-color: #4e9597;
     cursor: pointer;
-    transform: scale(1.02);
 }
 
 .show-travels-btn {
@@ -790,17 +798,24 @@ h4 {
 
 /* ======================MISION-VISION===================== */
 .mision-section {
-    background-color: #f1f1f1;
-    box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to right, rgba(44, 76, 77, 0.76), rgba(44, 76, 77, 0.33)), url(../images/man-and-woman-near-table-3184465.jpg);
+    width: 100%;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 70%;
+    display: flex;
+    align-items: center;
+    color: #fff;
 }
 
-.mision h3 {
+/* .mision h3 {
     color: #444444;
 }
 
 .mision-text p {
     color: #676767;
-}
+} */
 
 .vision {
     margin-top: 20px;
@@ -1067,6 +1082,12 @@ h4 {
     padding: 5px 10px;
     color: #fff;
     border: none;
+    transition: .2s;
+}
+
+.raiting-btn-container input:hover {
+    background-color: var(--turquesa);
+    cursor: pointer;
 }
 /* ======================TRAVEL-PAGE===================== */
 
