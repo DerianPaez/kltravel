@@ -349,6 +349,7 @@ h4 {
 
 .icon-star-half, .icon-star-full {
     font-size: 1em;
+    color: #e8df1b;
 }
 
 .travel-small {
@@ -1026,7 +1027,7 @@ h4 {
     justify-content: center;
     align-items: center;
     background-color: var(--celeste);
-    width: 100px;
+    padding: 6px;
     height: 30px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -1117,4 +1118,37 @@ h4 {
     margin-top: 70px;
 }
 /* ======================CONTACT-PAGE===================== */
+
+
+
+
+/* ======================BANNER5===================== */
+.banner5 {
+    background: linear-gradient(to right, rgba(44, 76, 77, 0.76), rgba(44, 76, 77, 0.33)), url(../images/cancun-1228131_1920.jpg);
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 70%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.banner5-h3 {
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    background: #fff;
+    color: #000;
+    border-radius: 15px 15px 0 0;
+    padding: 8px 12px 0;
+}
+
+.banner5 h1 {
+    font-size: 3.5em;
+}
+/* ======================BANNER5===================== */
+
 
