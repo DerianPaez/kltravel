@@ -544,10 +544,12 @@ h4 {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 3px;
 }
 
 .we-img img {
     width: 50px;
+    margin-right: 3px;
 }
 
 .we-title-img-container h3 {
@@ -1158,5 +1160,102 @@ h4 {
     font-size: 3.5em;
 }
 /* ======================BANNER5===================== */
+
+/* ======================INFO-FORM-TRAVELS===================== */
+.info-form-travel-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+}
+
+.info-travel-container {
+    border: 1px solid #00000052;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.info-form-travel-price {
+    display: flex;
+    align-items: center;
+}
+
+.info-form-travel-price small {
+    text-decoration: line-through;
+    font-weight: 600;
+}
+
+.info-form-travel-price p {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.info-form-travels-stars-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.info-form-p-input p {
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.info-form-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.info-form-btn input {
+    width: 120px;
+    height: 35px;  
+    background: none; 
+    outline: none;
+    border: 1px solid #00000052;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.info-travel-form {
+    border: 1px solid #00000052;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.info-travel-form label {
+    font-weight: 600;
+}
+
+.info-travel-form input {
+    width: 100%;
+    padding: 5px 15px;
+    border-radius: 15px;
+    outline: none;
+    border: 1px solid #00000052;
+}
+
+.info-travel-message textarea {
+    width: 100%;
+    height: 50px;
+    padding: 5px 15px;
+    border-radius: 15px;
+    outline: none;
+    border: 1px solid #00000052;
+    resize: none;
+}
+
+.info-travel-send {
+    display: flex;
+    justify-content: center;
+}
+
+.info-travel-send input {
+    width: 70px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid #00000052;
+    font-weight: 600;
+}
+/* ======================INFO-FORM-TRAVELS===================== */
 
 
